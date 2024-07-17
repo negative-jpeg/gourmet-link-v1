@@ -25,9 +25,10 @@ Make sure you have the following tools installed on your system:
 ### Cloning the Repository
 First, clone the repository to your local machine:
 ```sh
-$ git clone https://github.com/Centurion-Development-Team/Gourmet-Link.git
+$ git clone https://github.com/Centurion-Development-Team/Gourmet-Link.git <directory>
 $ cd Gourmet-Link
 ```
+Note: Replace <directory> with where you want the clone to go. (e.g, C:\Users\gwapo\Desktop)
 
 ## Recommended Extensions
 To enhance your development experience, we recommend installing the following Visual Studio Code extensions:
