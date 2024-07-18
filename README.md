@@ -54,6 +54,24 @@ Replace `<branch-name>` with the name of the branch you want to work on. For exa
 
 Repeat these steps for each branch you want to work on, using a separate folder for each branch.
 
+### Vite Error after Cloning
+If you encounter this error after sending the `npm run dev` command in git bash:
+
+```
+$ npm run dev
+
+> gourmet-link@0.0.0 dev
+> vite
+
+'vite' is not recognized as an internal or external command,
+operable program or batch file.
+```
+Then send this command:
+
+`npm install`
+
+After that, try the `npm run dev` command one more time.
+
 
 
 ## Recommended Extensions
