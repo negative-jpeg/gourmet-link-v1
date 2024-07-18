@@ -22,6 +22,7 @@ Make sure you have the following tools installed on your system:
 - Visual Studio Code
 - Node.js (including npm)
 
+
 ### Cloning the Repository
 First, clone the repository to your local machine:
 ```sh
@@ -29,6 +30,7 @@ $ git clone https://github.com/Centurion-Development-Team/Gourmet-Link.git <dire
 $ cd Gourmet-Link
 ```
 Note: Replace <directory> with where you want the clone to go. (e.g, C:\Users\gwapo\Desktop)
+
 
 ### Creating Separate Folders for Each Branch
 To work on multiple branches, it's recommended to clone each branch into a separate folder. Follow these steps:
@@ -52,6 +54,8 @@ Replace `<branch-name>` with the name of the branch you want to work on. For exa
 
 Repeat these steps for each branch you want to work on, using a separate folder for each branch.
 
+
+
 ## Recommended Extensions
 To enhance your development experience, we recommend installing the following Visual Studio Code extensions:
 - Vetur: Vue tooling for VS Code.
@@ -61,11 +65,15 @@ To enhance your development experience, we recommend installing the following Vi
 - Firebase: Firebase management for VS Code.
 - GitLens: Supercharges the built-in Git capabilities.
 
+
+
 ## Installing Vue.js
 Vue.js is already set up using Vite. Ensure you are in the project directory and then install the necessary dependencies:
 ```sh
 $ npm install vue
 ```
+
+
 
 ## Installing Node.js
 Ensure you have Node.js installed. You can verify this by running:
@@ -74,6 +82,8 @@ $ node -v
 $ npm -v
 ```
 If Node.js is not installed, download and install it from the [Node.js official site](https://nodejs.org/).
+
+
 
 ## Installing TailwindCSS
 To install TailwindCSS, follow these steps:
@@ -104,6 +114,8 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+
+
 
 ## Integrating Firebase
 1. Install Firebase:
@@ -136,7 +148,10 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 ```
 
+
+
 ## Setting Up Git
+
 
 ### Initializing Git
 If you haven't already initialized a Git repository, do so by running:
@@ -144,13 +159,17 @@ If you haven't already initialized a Git repository, do so by running:
 $ git init
 ```
 
+
 ### Pulling from the Main Branch
 Before you start working on a new feature, ensure your local repository is up to date:
 ```sh
 $ git pull origin main
 ```
 
+
+
 ## Working with Git
+
 
 ### Creating a New Branch
 To create a new branch for your feature, use the following command:
@@ -158,12 +177,14 @@ To create a new branch for your feature, use the following command:
 $ git checkout -b feature/your-feature-name
 ```
 
+
 ### Checking Your Current Branch
 To check which branch you are currently on, use:
 ```sh
 $ git branch
 ```
 The current branch will be highlighted with an asterisk (*).
+
 
 ### Switching Branches
 To switch to a different branch, use:
@@ -175,6 +196,7 @@ For example, to switch to the main branch:
 $ git checkout main
 ```
 
+
 ### Pushing Changes
 After committing your changes, you can push them to the respective branch. To push to the branch you are currently working on, use:
 ```sh
@@ -184,6 +206,7 @@ For example, to push to a feature branch:
 ```sh
 $ git push origin feature/your-feature-name
 ```
+
 
 ### Pushing to the Main Branch
 If you need to push directly to the main branch, ensure you have the latest updates from the main branch first:
@@ -196,12 +219,14 @@ Then push your changes:
 $ git push origin main
 ```
 
+
 ### Branch Naming Conventions
 Use the following naming conventions for branches:
 - `feature/<feature-name>`: For new features
 - `bugfix/<issue-name>`: For bug fixes
 - `hotfix/<issue-name>`: For urgent fixes
 - `refactor/<refactor-name>`: For code refactoring
+
 
 ### Committing Changes
 To commit changes, follow these steps:
@@ -216,11 +241,14 @@ $ git add .
 $ git commit -m "Add detailed description of the changes"
 ```
 
+
 ### Pushing to Respective Branches
 Push your changes to the respective branch:
 ```sh
 $ git push origin feature/your-feature-name
 ```
+
+
 
 ## Creating Pull Requests
 A pull request (PR) is a way to propose your changes to the codebase. It allows other team members to review your code before it is merged into the main branch. This helps ensure code quality and allows for collaborative development.
@@ -231,6 +259,8 @@ A pull request (PR) is a way to propose your changes to the codebase. It allows 
 4. Select the branch you want to merge into the main branch.
 5. Add a title and description for your pull request.
 6. Click "Create Pull Request".
+
+
 
 ## Additional Resources
 - [Vue.js Documentation](https://vuejs.org/v2/guide/)
