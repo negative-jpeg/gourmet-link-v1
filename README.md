@@ -30,6 +30,28 @@ $ cd Gourmet-Link
 ```
 Note: Replace <directory> with where you want the clone to go. (e.g, C:\Users\gwapo\Desktop)
 
+### Creating Separate Folders for Each Branch
+To work on multiple branches, it's recommended to clone each branch into a separate folder. Follow these steps:
+
+1. Create a folder for the branch you want to work on:
+```sh
+$ mkdir <branch-folder>
+```
+Replace `<branch-folder>` with the name of the branch you are working on. For example, `feature-new-feature`.
+
+2. Navigate to the newly created folder:
+```sh
+$ cd <branch-folder>
+```
+
+3. Clone the repository into this folder and checkout the desired branch:
+```sh
+$ git clone -b <branch-name> https://github.com/Centurion-Development-Team/Gourmet-Link.git .
+```
+Replace `<branch-name>` with the name of the branch you want to work on. For example, `feature/new-feature`.
+
+Repeat these steps for each branch you want to work on, using a separate folder for each branch.
+
 ## Recommended Extensions
 To enhance your development experience, we recommend installing the following Visual Studio Code extensions:
 - Vetur: Vue tooling for VS Code.
