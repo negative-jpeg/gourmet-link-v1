@@ -185,7 +185,7 @@
             gap: var(--gap-lg);
             align-items: center;
             cursor: pointer;
-            padding-left: 56px;
+            padding-top: 8px;
         }
 
         .topbar__logo-wht {
@@ -263,7 +263,7 @@
     /* Categories */
         .categories {
             width: 365px;
-            height: 400px;
+            height: 380px;
             overflow-y: auto;
             border-radius: var(--gap-xl);
             background: var(--clr-dkgray);
@@ -285,7 +285,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 317px;
+            width: 325px;
             background: var(--clr-blk);
             margin-bottom: var(--gap-lg);
             padding: var(--gap-base) var(--gap-lg);
@@ -371,22 +371,25 @@
         .carousel {
             display: grid;
             grid-auto-flow: column;
-            grid-auto-columns: 35.125%;
-
+            grid-auto-columns: 35.25%;
             overflow-x: auto;
-            overscroll-behavior-inline: contain;
-
-            width: 3000px;
+            scroll-behavior: smooth;
+            scrollbar-width: none; 
+            -webkit-overflow-scrolling: touch;
             margin-left: 8px;
         }
 
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+
         .card {
-            padding: var(--gap-lg) 0 var(--gap-lg) var(--gap-lg);
+            padding: 0 0 var(--gap-lg) var(--gap-lg);
         }
 
         .carousel__img {
             inline-size: 100%;
-            aspect-ratio: 544px / 818px;
+            aspect-ratio: 544 / 818;
             border-radius: var(--gap-lg);
             object-fit: cover;
         }
@@ -409,5 +412,5 @@
             font-weight: 400; 
             color: var(--clr-wht);
             background-color: var(--clr-dkgray);
-            border-radius: 16px 16px;
+            border-radius: 16px 16px 0px 0px;
         }
