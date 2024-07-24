@@ -12,7 +12,7 @@
   <!-- Side Menu -->
     <section>
       <div class="sidemenu container">
-        <div class="toggle" id="close"><a href="#"><img src="./src/png/icons8-close-96.png" alt="Close Menu"></a></div>
+        <div class="toggle-close" id="close"><a href="#"><img src="./src/png/icons8-close-96.png" alt="Close Menu"></a></div>
         <ul class="sidemenu__ul">
           <li>
             <a class="sidemenu__items" href="#">
@@ -37,7 +37,7 @@
   <!-- Top Bar -->
     <section>
       <div class="topbar container">
-            <div onclick="showSidemenu()" class="toggle disp" id="open">
+            <div onclick="showSidemenu()" class="toggle-open" id="open">
               <a class="topbar__item" href="#"><img src="./src/png/icons8-open-96.png" alt="Open Menu"></a></div>
             <div class="logo">
               <h1>
@@ -48,146 +48,153 @@
       </div>
     </section>
   
-    <section>
-
+  <!-- Main Content -->
+    <section class="main-content">
       <!-- Search & Categories Card -->
-      <div>
-      <!-- Search Bar -->
-        <section>
-          <div class="searchbar container">
-            <form class="searchbar__form">
-              <input class="searchbar__input" type="text" name="" placeholder="Search...">
-              <button class="searchbar__btn" type="submit">
-                <img src="./src/png/icons8-search-96.png" alt=""></button>
-            </form>
-          </div>
-      
-      <!-- Categories -->
-          <div class="categories">
-            <ul class="categories__list">
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Small Bites</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Dips & Spreads</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Baked Goods</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Savory Meals</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Sandwiches</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Wraps</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Salads & Bowls</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Pasta & Noodles</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Grilled & Roasted</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Cakes & Pies</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-              <li class="category-item">
-                <label>
-                  <span class="category__text">Frozen Treats</span>
-                  <input type="checkbox">
-                </label>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+        <div class="left">
+          <!-- Search Bar -->
+            <div class="searchbar container">
+              <form class="searchbar__form">
+                <input class="searchbar__input" type="text" name="" placeholder="Search...">
+                <button class="searchbar__btn" type="submit">
+                  <img src="./src/png/icons8-search-96.png" alt=""></button>
+              </form>
+            </div>
+        
+          <!-- Categories -->
+            <div class="categories container">
+                <ul class="categories__list">
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Small Bites</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Dips & Spreads</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Baked Goods</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Savory Meals</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Sandwiches</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Wraps</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Salads & Bowls</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Pasta & Noodles</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Grilled & Roasted</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Cakes & Pies</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                  <li class="category-item">
+                    <label>
+                      <span class="category__text">Frozen Treats</span>
+                      <input type="checkbox">
+                    </label>
+                  </li>
+                </ul>
+            </div>
+        </div>
     
     <!-- Carousel -->
-      <section>
-        <div class="container"></div>
-      </section>
+        <div class="carousel container snaps-inline">
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+          <div class="card">
+            <div>
+              <img class="carousel__img" src="./src/png/cards-544.png" alt="Image">
+              <div class="card-text"></div>
+              <div class="exit-icon"><img src="" alt=""></div>
+            </div>
+            <div class="card-text-expand"></div>
+          </div>
+        </div>
     </section>
   
   <!-- Footer -->
     <section>
-      <div class="container"></div>
+      <div class="footer container">
+        <p>All Rights Reserved © Gourmet Link 2024</p>
+      </div>
     </section>
   
   <!-- Javascript -->
-    <script>
-      function showSidemenu() {
-        const sidemenu = document.querySelector('.sidemenu');
-        const overlay = document.getElementById('overlay');
-        sidemenu.style.transform = 'translateX(0)';
-        overlay.style.display = 'block';
-      }
-
-      function closeSidemenu() {
-        const sidemenu = document.querySelector('.sidemenu');
-        const overlay = document.getElementById('overlay');
-        sidemenu.style.transform = 'translateX(-600px)';
-        overlay.style.display = 'none';
-      }
-
-      // Add event listeners to the open and close buttons
-      document.getElementById('open').addEventListener('click', showSidemenu);
-      document.getElementById('close').addEventListener('click', closeSidemenu);
-
-      // Close the sidemenu when clicking outside of it
-      document.getElementById('overlay').addEventListener('click', closeSidemenu);
-
-      // Close the sidemenu when any item is clicked
-      document.querySelectorAll('.sidemenu__items').forEach(item => {
-        item.addEventListener('click', closeSidemenu);
-      });
-
-      document.addEventListener('DOMContentLoaded', function () {
-          const categories = document.querySelector('.categories');
-          let isScrolling;
-
-          categories.addEventListener('scroll', function () {
-              clearTimeout(isScrolling);
-              categories.classList.remove('inactive-scrollbar');
-
-              isScrolling = setTimeout(function () {
-                  categories.classList.add('inactive-scrollbar');
-              }, 500);
-          });
-      });
-    </script>
+  <script src="./src/main.js"></script>
 </body>
 </html>
