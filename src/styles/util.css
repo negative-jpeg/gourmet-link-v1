@@ -98,7 +98,7 @@
     .container {
         display: flex;
         position: relative;
-        border: 1px solid limegreen;
+        /*border: 1px solid limegreen;*/
     }
 
     .main-content {
