@@ -43,6 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         carousel.scrollLeft += e.deltaY;
     });
-
-    
 });
