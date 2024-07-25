@@ -98,7 +98,7 @@
     .container {
         display: flex;
         position: relative;
-        /* border: 1px solid limegreen; */
+        border: 1px solid limegreen;
     }
 
     .main-content {
@@ -269,9 +269,9 @@
 
         /* 2xL */
             @media (min-width: 1440px) {
-                .container{
+                /* .container{
                     max-width: 100%;
-                }
+                } */
 
                 /* body {
                     overflow: auto;
